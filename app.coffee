@@ -5,9 +5,9 @@ http           = require 'http'
 app = express()
 
 app.set 'port', process.env.PORT #default : 5001)
+app.use express.bodyParser()
 
 app.post "/test_callback", (req, res) ->
-  console.log req
   if req.body
     console.log '*******************************'
     console.log req.body
