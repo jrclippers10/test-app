@@ -1,0 +1,11 @@
+.env
+/node_modules/
+npm-debug.log
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+postman.json
+/node-gocoin/node_modules/
+/public/scripts/
+/public/templates/
+*.idea
