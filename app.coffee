@@ -7,6 +7,7 @@ app = express()
 app.set 'port', process.env.PORT #default : 5001)
 
 app.post "/test_callback", (req, res) ->
+  console.log req
   if req.body
     console.log '*******************************'
     console.log req.body
